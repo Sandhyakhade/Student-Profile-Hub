@@ -1,0 +1,26 @@
+.list-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-title {
+    font-size: 1.25rem;
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+.empty-box {
+    background-color: #ffffff;
+    border: 1px dashed #cbd5e1;
+    border-radius: 8px;
+    padding: 36px;
+    text-align: center;
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+.card-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
